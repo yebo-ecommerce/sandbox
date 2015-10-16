@@ -3,8 +3,8 @@ FROM node:4.0.0
 # Define User
 ENV USER root
 
-# Define Home
-ENV APP_HOME /app
+# Define APP NAME
+ENV APP_HOME /environment
 
 # Note: npm is v2.7.6
 RUN npm install -g ember-cli --allow-root
@@ -35,7 +35,7 @@ WORKDIR /$APP_HOME
 ADD . /$APP_HOME
 
 # define volume
-VOLUME ["/app"]
+# VOLUME ["/app"]
 
 # Expose the ports that your $APP_HOME uses. For example:
 EXPOSE 4200 49152
