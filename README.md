@@ -3,6 +3,11 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Start new App
+* docker-compose up
+* docker-compose run zerotreze ember init
+* sudo chown -R $USER:$USER zerotreze
+
 ## Installation
 
 * git clone git@github.com:azclick/yebo-ember.git ../yebo-ember
@@ -11,8 +16,8 @@ A short introduction of this app could easily go here.
 * ln -s ../yebo-ember/packages/checkouts node_modules/yebo-ember-checkouts
 * ln -s ../yebo_sdk bower_components/yebo_sdk
 * docker-compose build
-* docker-compose run ember-vivre npm install
-* docker-compose run ember-vivre bower install --allow-root
+* docker-compose run zerotreze npm install
+* docker-compose run zerotreze bower install --allow-root
 
 ## Running / Development
 
@@ -25,13 +30,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-* docker-compose run ember-vivre ember test
-* docker-compose run ember-vivre ember test --server
+* docker-compose run zerotreze ember test
+* docker-compose run zerotreze ember test --server
 
 ### Building
 
-* docker-compose run ember-vivre ember build
-* docker-compose run ember-vivre ember build --environment production
+* docker-compose run zerotreze ember build
+* docker-compose run zerotreze ember build --environment production
 
 ### Deploying
 

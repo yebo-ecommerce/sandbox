@@ -4,7 +4,7 @@ FROM node:4.0.0
 ENV USER root
 
 # Define APP NAME
-ENV APP_HOME /environment
+ENV APP_HOME /zerotreze
 
 # Note: npm is v2.7.6
 RUN npm install -g ember-cli --allow-root

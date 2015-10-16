@@ -1,5 +1,5 @@
 # App name
-environment:
+zerotreze:
   build: .
   command: ember server --watcher polling --proxy http://vivreshop.azsale.com.br
   volumes:
