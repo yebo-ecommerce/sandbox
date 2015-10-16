@@ -1,0 +1,9 @@
+# Yebo Plugins
+app:
+  build: .
+  command: ember server --watcher polling --proxy http://vivreshop.azsale.com.br
+  volumes:
+    - .:/app
+  ports:
+   - "4200:4200"
+   - "49152:49152"
