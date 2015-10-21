@@ -5,8 +5,8 @@ A short introduction of this app could easily go here.
 
 ## Start new App
 * docker-compose up
-* docker-compose run zerotreze ember init
-* sudo chown -R $USER:$USER zerotreze
+* docker-compose run sample ember init
+* sudo chown -R $USER:$USER sample
 
 ## Installation
 
@@ -16,8 +16,8 @@ A short introduction of this app could easily go here.
 * ln -s ../yebo-ember/packages/checkouts node_modules/yebo-ember-checkouts
 * ln -s ../yebo_sdk bower_components/yebo_sdk
 * docker-compose build
-* docker-compose run zerotreze npm install
-* docker-compose run zerotreze bower install --allow-root
+* docker-compose run sample npm install
+* docker-compose run sample bower install --allow-root
 
 ## Running / Development
 
@@ -30,13 +30,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-* docker-compose run zerotreze ember test
-* docker-compose run zerotreze ember test --server
+* docker-compose run sample ember test
+* docker-compose run sample ember test --server
 
 ### Building
 
-* docker-compose run zerotreze ember build
-* docker-compose run zerotreze ember build --environment production
+* docker-compose run sample ember build
+* docker-compose run sample ember build --environment production
 
 ### Deploying
 

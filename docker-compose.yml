@@ -1,9 +1,9 @@
 # App name
-zerotreze:
+sample:
   build: .
   command: ember server --watcher polling --proxy http://vivreshop.azsale.com.br
   volumes:
-    - .:/zerotreze
+    - .:/sample
   ports:
    - "4200:4200"
    - "49152:49152"

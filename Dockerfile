@@ -4,7 +4,7 @@ FROM node:4.0.0
 ENV USER root
 
 # Define APP NAME
-ENV APP_HOME /zerotreze
+ENV APP_HOME /sample
 
 # Note: npm is v2.7.6
 RUN npm install -g ember-cli --allow-root
@@ -33,9 +33,6 @@ WORKDIR /$APP_HOME
 
 # Add files
 ADD . /$APP_HOME
-
-# define volume
-# VOLUME ["/app"]
 
 # Expose the ports that your $APP_HOME uses. For example:
 EXPOSE 4200 49152
