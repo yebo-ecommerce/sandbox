@@ -1,5 +1,5 @@
 # App name
-sample:
+sandbox:
   build: .
   command: sh start.sh
   volumes:
