@@ -3,7 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     yebo: {
-      apiHost: "http://veran.lvh.me",
+      apiHost: "http://zerotreze.lvh.me",
       namespace: "api/v2",
     },
     modulePrefix: 'sandbox',

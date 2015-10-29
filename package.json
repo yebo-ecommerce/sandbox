@@ -20,7 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "yebo-ember-checkouts": "0.0.1-beta.1",
-    "yebo-ember-core": "0.0.1-beta.1"
+    "yebo-ember-core": "0.0.1-beta.1",
+    "yebo-ember-storefront": "0.0.1-beta.1",
+    "yebo-ember-auth": "0.0.1-beta.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
