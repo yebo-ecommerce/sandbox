@@ -3,9 +3,6 @@ FROM node:4.0.0
 # Define User
 ENV USER root
 
-# Define APP NAME
-ENV APP_HOME /app
-
 # Note: npm is v2.7.6
 RUN npm install -g ember-cli --allow-root
 RUN npm install -g bower
@@ -24,6 +21,9 @@ RUN \
 	./configure &&\
 	make &&\
 	make install
+
+# Define APP NAME
+ENV APP_HOME /sandbox
 
 # Create folder
 RUN mkdir /$APP_HOME

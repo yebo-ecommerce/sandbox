@@ -16,3 +16,8 @@
 npm-debug.log
 testem.log
 
+# modules
+/vendor/modules/yebo-ember/*
+/vendor/modules/yebo_sdk/*
+!/vendor/modules/yebo-ember/.gitkeep
+!/vendor/modules/yebo_sdk/.gitkeep
