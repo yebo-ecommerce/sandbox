@@ -1,9 +1,11 @@
 # App name
 sample:
   build: .
-  command: ember server --watcher polling --proxy http://vivreshop.azsale.com.br
+  command: sh start.sh
   volumes:
-    - .:/sample
+    - ../yebo-ember:/app/vendor/modules/yebo-ember
+    - ../yebo_sdk:/app/vendor/modules/yebo_sdk
+    - .:/app
   ports:
-   - "4200:4200"
-   - "49152:49152"
+    - "4200:4200"
+    - "49152:49152"
