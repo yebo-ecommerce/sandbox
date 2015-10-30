@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo '-----> Remove links'
-rm node_modules/yebo-ember-core
-rm node_modules/yebo-ember-checkouts
-rm node_modules/yebo-ember-auth
-rm node_modules/yebo-ember-storefront
-rm bower_components/yebo_sdk
+rm -rf node_modules/yebo-ember-core
+rm -rf node_modules/yebo-ember-checkouts
+rm -rf node_modules/yebo-ember-auth
+rm -rf node_modules/yebo-ember-storefront
+rm -rf bower_components/yebo_sdk
 
 echo '-----> Create links'
 ln -s ../vendor/modules/yebo-ember/packages/core node_modules/yebo-ember-core

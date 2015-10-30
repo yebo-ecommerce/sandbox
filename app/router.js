@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import config from './config/environment';
 
-// This line imports the Spree Router.
+// This line imports the Yebo Router.
 import yeboRouter from 'yebo-ember-storefront/router';
 
 var Router = Ember.Router.extend({
