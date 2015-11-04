@@ -3,7 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     yebo: {
-      apiHost: "http://zerotreze.lvh.me",
+      apiHost: "http://vivreshop.lvh.me",
       namespace: "api/v2",
     },
     // APIMethod: "proxy",
@@ -36,7 +36,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ENV.APP.LOG_RESOLVER = true;
+    // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
