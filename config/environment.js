@@ -6,6 +6,9 @@ module.exports = function(environment) {
       apiHost: "http://zerotreze.lvh.me",
       namespace: "api/v2",
     },
+    // APIMethod: "proxy",
+    // proxyURL: "http://zerotreze.lvh.me",
+    // proxyPath: "/api/v2",
     modulePrefix: 'sandbox',
     environment: environment,
     baseURL: '/',
@@ -33,7 +36,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
+    ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
