@@ -3,8 +3,8 @@
 module.exports = function(environment) {
   var ENV = {
     yebo: {
-      apiHost: "http://vivreshop.lvh.me",
-      namespace: "api/v2",
+      apiHost: "http://vivreshop.yebo.com.br/",
+      namespace: "api/ams",
     },
     // APIMethod: "proxy",
     // proxyURL: "http://zerotreze.lvh.me",
