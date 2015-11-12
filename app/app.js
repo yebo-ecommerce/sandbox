@@ -6,6 +6,8 @@ import config from './config/environment';
 var App;
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
+Ember.ENV.RAISE_ON_DEPRECATION = true
+Ember.LOG_STACKTRACE_ON_DEPRECATION = true
 
 App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
