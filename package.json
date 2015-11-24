@@ -24,7 +24,8 @@
     "yebo-ember-storefront": "0.0.0",
     "yebo-ember-auth": "0.0.0",
     "ember-simple-auth": "1.0.1",
-    "active-model-adapter": "2.0.2"
+    "active-model-adapter": "2.0.2",
+    "emberx-select": "2.0.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
