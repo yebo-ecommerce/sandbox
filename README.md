@@ -4,6 +4,7 @@ This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
 ## Start new App
+
 * docker-compose up
 * docker-compose run sample ember init
 * sudo chown -R $USER:$USER sample
@@ -12,9 +13,6 @@ A short introduction of this app could easily go here.
 
 * git clone git@github.com:azclick/yebo-ember.git ../yebo-ember
 * git clone git@github.com:azclick/yebo-sdk.git ../yebo-sdk
-* ln -s ../yebo-ember/packages/core node_modules/yebo-ember-core
-* ln -s ../yebo-ember/packages/checkouts node_modules/yebo-ember-checkouts
-* ln -s ../yebo_sdk bower_components/yebo_sdk
 * docker-compose build
 * docker-compose run sample npm install
 * docker-compose run sample bower install --allow-root
