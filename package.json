@@ -19,13 +19,16 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "yebo-ember-checkouts": "0.0.1",
-    "yebo-ember-core": "0.0.1",
-    "yebo-ember-storefront": "0.0.1",
-    "yebo-ember-auth": "0.0.1",
-    "ember-simple-auth": "1.0.1",
+    "yebo-ember-checkouts": "*",
+    "yebo-ember-core": "*",
+    "yebo-ember-storefront": "*",
+    "yebo-ember-auth": "*",
+    "ember-simple-auth": "git://github.com/yurifrl/ember-simple-auth.git",
+    "ember-getowner-polyfill": "1.0.0",
     "active-model-adapter": "2.0.2",
-    "emberx-select": "2.0.2"
+    "emberx-select": "2.0.2",
+    "ember-lodash": "0.0.6",
+    "ember-truth-helpers": "1.2.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",

@@ -21,3 +21,9 @@ testem.log
 /vendor/modules/yebo_sdk/*
 !/vendor/modules/yebo-ember/.gitkeep
 !/vendor/modules/yebo_sdk/.gitkeep
+
+# certs
+/cents/*
+
+# config files
+/config/kubernetes.yaml
