@@ -3,28 +3,12 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-## Start new App
-
-* docker-compose up
-* docker-compose run sandbox ember init
-* sudo chown -R $USER:$USER sandbox
-
-## Installation
-
-* git clone git@github.com:azclick/yebo-ember.git ../yebo-ember
-* git clone git@github.com:azclick/yebo-sdk.git ../yebo-sdk
-* docker-compose build
-* docker-compose run sandbox npm install
-* docker-compose run sandbox bower install --allow-root
-
 ## Running / Development
 
+* docker-compose run --rm web npm install
+* docker-compose run --rm web bower instal --allow-root
 * docker-compose up
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+* Visit your app at [http://127.0.0.1:4200](http://localhost:4200).
 
 ### Running Tests
 
@@ -33,8 +17,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-* docker-compose run sandbox ember build
-* docker-compose run sandbox ember build --environment production
+* docker-compose run web build
 
 ### Deploying
 
